@@ -30,6 +30,7 @@ library(rmarkdown)
 ## load required libraries
 library(tidyverse)
 library(quanteda)
+library(readtext)
 library(lexicon)
 library(reshape2)
 library(stringi)
@@ -52,7 +53,7 @@ rm(list=ls())
 ```
 ```{r eval=FALSE}
 ## set working directory (WD)
-path <- '~/coliphi21/practice_lessons/lesson_2/src/'
+path <- '~/1-2021-22-Projects/Sentiment/coliphi21/'
 ## you can also set it dynamically: 
 ## setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 setwd(path)
@@ -68,19 +69,19 @@ For this tutorial you can either work with your own data, or the pre-built copor
 
 ```{r}
 ## relative path
-load('../input/stanford-encyclopedia.RDS')
+load('/home/redapemusic35/1-2021-22-Projects/Sentiment/coliphi21/practice_lessons/lesson_2/input/stanford-encyclopedia.RDS')
 ```
 ```{r eval=FALSE}
 ## absolute path
-load('~/coliphi21/practice_lessons/lesson_2/input/stanford-encyclopedia.RDS')
+# load('~/coliphi21/practice_lessons/lesson_2/input/stanford-encyclopedia.RDS')
 ```
 
 ### If you work with your own corpus
 ```{r eval=FALSE}
 ## either
-sfe <- readtext('path/to/you/data/*')
+sfe <- readtext('~/1-2021-22-Projects/Sentiment/coliphi21/practice_lessons/lesson_2/input/coliphi21_reddit.RDS')
 ## or
-sfe <- readtext('path/to/you/data', text_field = 'name_of_text_var', docid_field = 'id_var')
+# sfe <- readtext('path/to/you/data', text_field = 'name_of_text_var', docid_field = 'id_var')
 ## then
 sfe <- corpus(sfe)
 ```
