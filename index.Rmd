@@ -14,7 +14,7 @@ Hi! This is the online repository for CoLiPhi21:
 - Mark Alfano I - Nietzsche Corpus Analysis:
   - [Presentation](./practice_lessons/mark/1st/Nietzschescripts.html)
   - [Code](./practice_lessons/mark/1st/Nietzschescripts.Rmd)
-  
+
 <br>
 
 - Mark Alfano II - BLM:
@@ -25,19 +25,19 @@ Hi! This is the online repository for CoLiPhi21:
 
 - Justin Sytsma I - Corpus Methods and Experimental Philosophy:
   - [Presentation](./practice_lessons/justin/1st/Corpus Methods and Experimental Philosophy.pdf)
-  
+
 <br>
 
 - Justin Sytsma II - Causal Attributions and Corpus Analysis:
   - [Presentation](./practice_lessons/justin/2nd/Causal Attributions and Corpus Analysis.pdf)
   - [Data](./practice_lessons/justin/2nd/causal_attribution.zip)
- 
+
 <br>
 
 - Lucien Baumgartner I - The Quanteda-Suite:
   - [Presentation](./practice_lessons/lesson_1/src/session_1v1.html)
   - [Code](./practice_lessons/lesson_1/src/session_1v1.Rmd)
- 
+
  <br>
 
 - Lucien Baumgartner II - Inductive Analytics:
@@ -46,7 +46,7 @@ Hi! This is the online repository for CoLiPhi21:
   - [Data (SEP)](./practice_lessons/lesson_2/input/stanford-encyclopedia.RDS)
   - [Data (Reddit)](./practice_lessons/lesson_2/input/coliphi21_reddit.RDS)
 
-<br>  
+<br>
 
 - Lucien Baumgartner III - Text Mining:
   - [Presentation](./practice_lessons/lesson_3/pres.html)
@@ -54,6 +54,6 @@ Hi! This is the online repository for CoLiPhi21:
   - [Code Google Scholar Exercise](./practice_lessons/lesson_3/web_scraping.R)
 
 <br>
-<br>  
+<br>
 
 
